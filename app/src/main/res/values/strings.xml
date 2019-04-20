@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CustomDialog</string>
+
+
+    <string name="title_no_location_dialog">Cannot find location</string>
+    <string name="subtitle_no_location_dialog">No location has been provied. Try again</string>
+    <string name="understood_label">Understood</string>
+
+</resources>

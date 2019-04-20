@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+
+    android:layout_margin="20dp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+
+        android:textSize="18sp"
+        tools:text="Title custom dialog"
+        android:textAllCaps="true"
+        android:textColor="@color/title"
+        />
+
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="36dp"
+        android:gravity="center"
+
+        android:textSize="18sp"
+        android:textColor="@color/subtitle_dark"
+        tools:text="Subtitle custom dialog"
+        />
+
+    <TextView
+        android:id="@+id/tv_action"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_action"
+
+        android:layout_gravity="center"
+
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        tools:text="Action"
+        android:textAllCaps="true"
+        />
+
+</LinearLayout>
